@@ -1,0 +1,9 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <config>
+      <modules>
+          <Bewype_Accountcustomfields>
+              <active>true</active>
+              <codePool>community</codePool>
+          </Bewype_Accountcustomfields>
+      </modules>
+  </config>
