@@ -5,30 +5,7 @@
             <version>1.0.0</version>
         </Bewype_Accountcustomfields>
     </modules>
-    <!--admin>
-        <fieldsets>
-            <customer_dataflow>
-                <clientnumber><create>1</create><update>1</update></clientnumber>
-            </customer_dataflow>
-        </fieldsets>
-    </admin-->
-    <!--frontend>
-        <routers>
-            <customer>
-                <args>
-                    <modules>
-                        <Bewype_Accountcustomfields before="Mage_Customer">Bewype_Accountcustomfields</Bewype_Accountcustomfields>
-                    </modules>
-                </args>
-            </customer>
-        </routers>
-    </frontend-->
     <global>
-        <!--fieldsets>
-            <customer_account>
-                <clientnumber><create>1</create><update>1</update></clientnumber>
-            </customer_account>
-        </fieldsets-->
         <models>
             <customfields>
                 <class>Bewype_Accountcustomfields_Model</class>
@@ -55,11 +32,5 @@
                 </connection>
             </customfields_read>
         </resources>
-        <!--rewrite>
-            <bewype_customfields_account>
-                <from><![CDATA[#^/account/#]]></from>
-                <to>/customer/account/</to>
-            </bewype_customfields_account>
-        </rewrite-->
     </global>
 </config>
